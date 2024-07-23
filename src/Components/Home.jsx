@@ -12,7 +12,7 @@ const Home = () => {
     }),
   });
   return <>
-  <div className='w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-950 to-gray-700 flex justify-center items-center fixed'>
+  <div className='w-full h-screen  bg-gradient-to-b from-slate-950 via-slate-950 to-gray-700 flex justify-center items-center '>
   
   {state  ? <Location></Location> : <Login screen = {login}></Login>}
   
