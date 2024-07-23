@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FcGoogle } from "react-icons/fc"
-import { useGoogleLogin } from '@react-oauth/google'
 
 const Login = ({screen}) => {
   return (
